@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
     }
 
     private void StartScan() {
+
         new com.google.zxing.integration.android.IntentIntegrator(this).initiateScan();
     }
 
